@@ -152,6 +152,11 @@ function SBlock() {
   this.gridY = -2;
 }
 
+function Tile (letter, value) {
+  this.letter = letter;
+  this.value = value;
+}
+
 function getRandomBlock() {
 
   var result = Math.floor( Math.random() * 7 );
